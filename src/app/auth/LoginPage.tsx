@@ -124,7 +124,7 @@ const LoginPage: React.FC = () => {
         {!isXs && (
           <GCol md="6" className="text-center text-md-start d-flex flex-column justify-content-center" style={{ minHeight: "100vh" }}>
             <h1 className="my-5 display-5 fw-bold ls-tight px-3">
-              Smart AI Interviews <br />
+              Smart AI Interview <br />
               <span className="text-primary">for Future Professionals</span>
             </h1>
             <p className="px-2" style={{ color: "hsl(217, 10%, 50.8%)" }}>
