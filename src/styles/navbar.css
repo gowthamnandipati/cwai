@@ -1,0 +1,55 @@
+.g-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #1a1a2e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .g-navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .g-toggle-icon {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .g-navbar-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .g-navbar-breadcrumb {
+    font-size: 14px;
+    color: #bbb;
+  }
+  
+  .g-navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+  }
+  
+  .g-navbar-right i {
+    cursor: pointer;
+  }
+  
+  .g-profile-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
